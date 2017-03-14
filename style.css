@@ -1,0 +1,123 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nav1 {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #2883cc;
+}
+#nav1 h1{
+    float: left;
+    font-size: 2.5em;
+    margin-left: 15px;
+}
+#nav1 h1 a{
+    text-decoration: none;
+    color: white;
+}
+#nav1 ul{
+    float: right;
+    margin-right: auto;
+}
+#nav1 ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+#nav1 ul li a{
+    text-decoration:none;
+    color: white;
+    padding: 25px;
+}
+#nav1 ul li:hover{
+    background:olive;
+    transition: all ease-in-out 0.45s;
+}
+#links h3{
+    float: left;
+    font-size: 1.0em;
+    margin-right: 25px;
+}
+#links h3 a{
+    text-decoration: none;
+    color: indianred;
+}
+#links ul{
+    float: left;
+    margin-left: auto;
+}
+#links ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+#links ul li a{
+    text-decoration:none;
+    color: darkred;
+    padding: 25px;
+}
+#footer{
+    
+    width:100%;
+    height: 60px;
+    float: right;
+    background: skyblue;
+}
+active{
+  background: : olive;  
+}
+#HomePage{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    line-height:70px;
+}
+#em{
+   background-color: aqua;
+   float:center;
+}
+#About1{
+     width: 100%;
+    height: 350px;
+    text-align:left;
+    color:black;
+    line-height:30px;
+}
+#About2{
+    width: 100%;
+    height: auto;
+    text-align:left;
+    color:black;
+    line-height:30px;
+}
+#footer2{
+    
+    width:100%;
+    height: 90px;
+    float: right;
+    background: skyblue;
+}
+#forms{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    background:white;
+    color:black;
+    text-align:center;
+    
+}
+#sub{
+    width: 100px;
+    background: aqua;
+    height:50px;
+    border: 0px;
+    color:mediumvioletred;
+    font-size: 18px;
+        
+}
