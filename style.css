@@ -52,13 +52,15 @@ body{
     margin-left: auto;
 }
 #links ul li{
-    display: inline-block;
+    
     list-style-type: none;
+    padding: 0px;
 }
 #links ul li a{
+    display: block;
     text-decoration:none;
     color: darkred;
-    padding: 25px;
+    
 }
 #footer{
     
